@@ -1,5 +1,5 @@
 # bravissimolabs/docker-compose-node-alpine:6.12.1
 
-A docker image based on the official [node:6.12.1-alpine](https://hub.docker.com/_/node/) image that also contains docker and docker-compose. Useful for build pipelines.
+A docker image based on the official [node:6.12.1-alpine](https://hub.docker.com/_/node/) image that also contains docker and docker-compose. Intended for use in build pipelines, therefore also includes git and bash.
 
 Set `--build-arg NODE_TAG=xxx` when building the image to control the base node image used.
